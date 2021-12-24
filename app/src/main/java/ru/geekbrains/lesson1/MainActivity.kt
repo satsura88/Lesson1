@@ -9,11 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val person = Person("noInit", 20, "bio1", "bio2")
-        Log.d("mylogs", person.name)
+        //Log.d("mylogs", person.name)
+        person.newProperty = ""
         Log.d("mylogs", person.newProperty)
-        Log.d("mylogs", test)
-        test = "NewTest"
-        Log.d("mylogs", test)
+        //Log.d("mylogs", test)
+        //test = "NewTest"
+        //Log.d("mylogs", test)
     }
 }
 
