@@ -8,8 +8,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val person = Person("noInit", 20)
+        val person = Person("noInit", 20, "bio1", "bio2")
         Log.d("mylogs", "${person.name}")
+        Log.d("mylogs", "$test")
+        test = "NewTest"
+        Log.d("mylogs", "$test")
     }
 }
 
