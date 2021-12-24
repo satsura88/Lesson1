@@ -3,6 +3,8 @@ package ru.geekbrains.lesson1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import ru.geekbrains.test.Test
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         //Log.d("mylogs", test)
         //test = "NewTest"
         //Log.d("mylogs", test)
+        val test = Test()
     }
 }
 
