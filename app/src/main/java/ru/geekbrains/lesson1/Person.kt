@@ -14,6 +14,12 @@ open class Person(val name:String, var age:Int=25, var bio:String="", var bio2:S
     fun foo(name:String):Int{
         return age
     }
+
+    inner class InnerClass(){
+        fun foo():String{
+            return newProperty
+        }
+    }
 }
 
 class Student(var group:Int, name:String,age:Int):Person(name, age){
